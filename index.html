@@ -20,7 +20,7 @@
 			var inputDate = new Date(document.getElementById("input-date").value);
 
 			// 计算与基准日期的天数差
-			var baseDate = new Date("2023-02-23"); // 第一个晚班的日期
+			var baseDate = new Date("2023-02-25"); // 第一个晚班的日期
 			var dayDiff = (inputDate.getTime() - baseDate.getTime()) / (1000 * 60 * 60 * 24);
 
 			// 根据天数差计算轮班
